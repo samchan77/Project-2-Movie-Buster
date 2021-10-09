@@ -1,0 +1,28 @@
+Oldie’s Movie Buster
+README.md   
+OVERVIEW
+This E-commerce application/website on the renting and selling of VHS films has been created for users who would like to reminisce and bring back the nostalgic feeling of watching movies in the form of  videocassettes.
+
+Basic Features:
+       -list of movies with retro designs;
+       -movies are categorized;
+       -movies have ratings;
+       -each shows rental price and sale price;
+       -each has an indicator to show user the movie run time;
+       -users can create individual account;
+       -payment with Stripe (dummy/test mode) by exchange or credit.
+
+At this time, HTML and CSS are being used.This shopping prototype will eventually use the following technologies / libraries:
+       - JavaScript
+       - MongoDB
+       - Node.js
+       - React.js 
+       - ES6
+       - Bootstrap
+       - Express (nodejs framework)
+       - Babel
+       - Stripe (?)
+       Screenshots:
+       -movies
+       -user account creation
+
