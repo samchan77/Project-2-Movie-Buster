@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <title>Oldies Movie Buster</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">Oldies Movie Buster  (Project 2)</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign In</a>
+
+            </div>    
+            
+        </header>
+        <aside class="sidebar">
+            <h3>Movie Categories</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">X</button>
+            <ul>
+                
+                <li>
+                    <a href="index.html">Action Movies</a>
+                </li>
+                <li>
+                    <a href="index.html">Sci-Fi Movies</a>
+                </li>
+                <li>
+                    <a href="index.html">Horror Movies</a>
+                </li>
+                <li>
+                    <a href="index.html">Funny Movies</a>
+                </li>
+                <li>
+                    <a href="index.html">Sad Movies</a>
+                </li>
+                <li>
+                    <a href="index.html">Documentary Movies</a>
+                </li>
+            </ul>
+        </aside>
+        
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image"  src="images/d1.jpg"  alt="product">
+                            <div class="movie-type">
+                                <a href="movie.html">Movie type</a>
+                            </div>    
+                            <div class="movie-production">Movie production</div>
+                            <div class="product-price">rent for $5</div>
+                            <div class="product-rating">4.7 Stars  (54 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image"  src="images/d9.jpg"  alt="product">
+                            <div class="movie-type">
+                                <a href="movie.html">Movie type</a>
+                            </div>    
+                            <div class="movie-production">Movie production</div>
+                            <div class="product-price">rent for $5</div>
+                            <div class="product-rating">4.8 Stars  (54 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image"  src="images/d21.jpg"  alt="product">
+                            <div class="movie-type">
+                                <a href="movie.html">Movie type</a>
+                            </div>    
+                            <div class="movie-production">Movie production</div>
+                            <div class="product-price">rent for $5</div>
+                            <div class="product-rating">4.5 Stars  (54 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image"  src="images/d12.jpg"  alt="product">
+                            <div class="movie-type">
+                                <a href="movie.html">Movie type</a>
+                            </div>    
+                            <div class="movie-production">Movie production</div>
+                            <div class="product-price">rent for $5</div>
+                            <div class="product-rating">4.0 Stars  (54 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image"  src="images/d19.jpg"  alt="product">
+                            <div class="movie-type">
+                                <a href="movie.html">Movie type</a>
+                            </div>    
+                            <div class="movie-production">Movie production</div>
+                            <div class="product-price">rent for $5</div>
+                            <div class="product-rating">4.8 Stars  (54 Reviews)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>    
+        </main>
+        <footer class="footer">
+            "Imagination is Everything" -AE
+        </footer>
+
+    </div>
+    <script>
+        function openMenu(){
+            document.querySelector(".sidebar").classList.add ("open");
+
+        }
+        function closeMenu(){
+            document.querySelector(".sidebar").classList.remove ("open")
+        }
+    </script>
+    
+</body>
+</html>
